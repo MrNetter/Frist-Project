@@ -1,0 +1,231 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-card {
+  height: auto;
+  width: auto;
+  border: 1px solid #d3daeb;
+  border-radius: 24px;
+  padding: 14px;
+}
+
+.MusicCard {
+  background-color: #0000003a;
+  border-radius: 16px;
+}
+.avatartrack {
+  height: 45px;
+  width: 45px;
+  border-radius: 8px;
+  position: relative;
+  top: 8px;
+  left: -8px;
+}
+
+.btnplay {
+  background-color: #0e0a0a00;
+  border-radius: 50%;
+  top: 20px;
+  border: 1px solid transparent;
+}
+.btnplay:hover {
+  border-color: rgba(0, 255, 255, 0);
+}
+.btnplay:active {
+  border-color: rgba(127, 255, 212, 0);
+}
+audio {
+  display: none;
+}
+
+.range {
+  width: auto;
+  accent-color: #d3daeb;
+}
+.range-time {
+  width: auto;
+  accent-color: #d3daeb;
+}
+.name-track {
+  width: 200px;
+  height: 10px;
+  font-size: 12px;
+  left: 70px;
+}
+.creator-name {
+  color: rgb(128, 129, 131);
+}
+.MusicCard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8px;
+  width: auto;
+  padding: 13px;
+}
+.MusicCard:hover {
+  scale: 1.020;
+  transition: border 0.6s ease-in-out;
+}
+.time {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.ul1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  left: -10px;
+}
+header {
+  background-color: #0000003a;
+  border: 1px solid #d3daeb;
+  margin-bottom: 13px;
+  padding: 6px;
+  border-radius: 24px;
+}
+header button {
+  width: auto;
+  height: auto;
+  border-radius: 16px;
+  background-color: #0c707500;
+  font-size: 15px;
+  border: 1px solid transparent;
+}
+header input {
+  width: 110px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 16px;
+}
+header p, li, button {
+  color: #818586;
+}
+header button:hover {
+  color: #ffffff;
+  transition: color 0.6s ease-in-out;
+}
+header p, li:hover {
+  color: #ffffff;
+  transition: color 0.6s ease-in-out;
+}
+body {
+  background-color: #121212;
+}
+.logo {
+  color: blanchedalmond;
+}
+.logo:hover {
+  color: rgb(207, 176, 129);
+  transition: color 0.6s ease-in-out;
+}
+.premiumBtn:hover {
+  color: rgb(207, 176, 129);
+}
+.Error {
+  color: rgb(163, 39, 39);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d3daeb;
+  border-radius: 16px;
+  width: 250px;
+  gap: 10px;
+  padding: 10px;
+  
+}
+/* .form1 {
+  display: flex;
+  margin-left: 30%;  
+} */
+.FreeCloud-basic {
+  /* background: linear-gradient(to right, #6eb7ff, #959ea3); */
+  border: 2px solid #d3daeb;
+  border-radius: 16px;
+  animation: basic 16s;
+  animation-iteration-count: infinite;
+  transform: basic rotate(30deg);
+  padding: 10px;
+}
+
+@keyframes basic {
+  20% {
+    background-color: #9bdaff;
+  }
+  40% {
+    background-color: #41b3f0;
+  }
+  80% {
+    background-color: #6397b3;
+  }
+  100% {
+    background-color: #0EA5E9;
+  }
+}
+/* .basic-btn {
+  width: 120px;
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0);
+  color: #ebf8ff;
+}
+.h22 {
+  color: #aed3e9;
+}
+.h33 {
+  color: #ffffff;
+}
+.basic-text {
+  color: #ffffff;
+} */
+.search-btn {
+  width: 20px;
+  height: 20px;
+}
+.download-btn {
+  background-color: #00000000;
+  color: #d3daeb;
+  border: 1px solid;
+  border-radius:20px;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.download-btn:hover {
+  background-color: #9ea3a5;
+  transition: background-color 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out;
+  color: #121212;
+  border-color: #2e2e2e;
+}
+.avatartrack:hover {
+  transform: scale(1.5);
+  transition: transform 0.6s ease-in-out;
+}
+.avatartrack {
+  margin-left: 15px;
+}
+
+/* footer {
+  margin-top: 50px;
+  background-color: #221e1e;
+  width: auto;
+  height: 100px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.footer1 {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+} */
