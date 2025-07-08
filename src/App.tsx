@@ -41,7 +41,7 @@ function App() {
         </>
       }/>
     </Routes>
-                <h2 className='beta'>BETA VERSION WEB SITE :)</h2>
+                <h2 className='beta'>BETA VERSION WEB SITE</h2>
     </>
   )
 }
