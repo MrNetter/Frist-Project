@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import img1 from "../img/play.png";
-import img2 from "../img/pause.png"
+import img2 from "../img/pause.png";
 
 type MusicCard = {
   id: number;
@@ -94,7 +94,8 @@ export default function MusicCard({
         <img src={isPlaying ? img2 : img1} alt="" />
       </button>
       <img className="avatartrack" src={avatarTrack} alt={name} />
-      <p className="name-track">{name} <br />
+      <p className="name-track">
+        {name} <br />
         <span className="creator-name">{creator}</span>
       </p>
       <input
@@ -106,7 +107,9 @@ export default function MusicCard({
         value={currentTime}
         onChange={(e) => handleTimeChange(Number(e.target.value))}
       />
-      <p className="time">{isPlaying ? formatTime(currentTime) : formatTime(duration)}</p>
+      <p className="time">
+        {isPlaying ? formatTime(currentTime) : formatTime(duration)}
+      </p>
       <input
         type="range"
         className="range"
@@ -118,7 +121,7 @@ export default function MusicCard({
       />
       <audio className="audio" ref={audioRef} src={track} preload="metadata" />
       <a href={track} download={`${name}.mp3`}>
-      <button className="download-btn">Download</button>
+        <button className="download-btn">Download</button>
       </a>
     </div>
   );
